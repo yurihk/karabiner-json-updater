@@ -5929,65 +5929,11 @@
             }
           ],
           "from": {
-            "key_code": "b"
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Mural.app'"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "e"
-          },
-          "to": [
-            {
-              "shell_command": "osascript -e \"tell application \\\"Alfred 4\\\" to search \\\"snip \\\"\""
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "h"
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Atom.app'"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
             "key_code": "i"
           },
           "to": [
             {
-              "shell_command": "open -a 'CLion.app'"
+              "shell_command": "open -a 'Visual Studio Code.app'"
             }
           ]
         },
@@ -6059,7 +6005,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Dynalist.app'"
+              "shell_command": "open -a 'Mail.app'"
             }
           ]
         },
@@ -6077,25 +6023,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Notion.app'"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "o"
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Visual Studio Code.app'"
+              "shell_command": "open -a 'Calendar.app'"
             }
           ]
         },
@@ -6127,29 +6055,11 @@
             }
           ],
           "from": {
-            "key_code": "r"
-          },
-          "to": [
-            {
-              "shell_command": "osascript -e \"tell application \\\"Alfred 4\\\" to search \\\"docsrs \\\"\""
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
             "key_code": "t"
           },
           "to": [
             {
-              "shell_command": "open -a 'Visual Studio Code.app'"
+              "shell_command": "open -a 'Microsoft Teams.app'"
             }
           ]
         },
@@ -6181,24 +6091,6 @@
             }
           ],
           "from": {
-            "key_code": "x"
-          },
-          "to": [
-            {
-              "shell_command": "osascript -e \"tell application \\\"Alfred 4\\\" to search \\\"snip codeblocks\\\"\""
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
             "key_code": "v"
           },
           "to": [
@@ -6217,47 +6109,11 @@
             }
           ],
           "from": {
-            "key_code": "close_bracket"
+            "key_code": "y"
           },
           "to": [
             {
-              "shell_command": "osascript -e \"tell application \\\"Spotify\\\" to previous track\""
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "non_us_pound"
-          },
-          "to": [
-            {
-              "shell_command": "osascript -e \"tell application \\\"Spotify\\\" to next track\""
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "backslash"
-          },
-          "to": [
-            {
-              "shell_command": "osascript -e \"tell application \\\"Spotify\\\" to next track\""
+              "shell_command": "open -a 'Dynalist.app'"
             }
           ]
         },
@@ -6276,24 +6132,6 @@
           "to": [
             {
               "shell_command": "open -a 'System Preferences.app'"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "vk2",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "open_bracket"
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Mail.app'"
             }
           ]
         }

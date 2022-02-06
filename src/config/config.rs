@@ -2306,36 +2306,18 @@ impl Config {
                 Rule {
                     description: "Open apps",
                     manipulators: vec![
-                        (K::B, "open -a 'Mural.app'"),
-                        (
-                            K::E,
-                            r#"osascript -e "tell application \"Alfred 4\" to search \"snip \"""#,
-                        ),
-                        (K::H, "open -a 'Atom.app'"),
-                        (K::I, "open -a 'CLion.app'"),
+                        (K::I, "open -a 'Visual Studio Code.app'"),
                         (K::J, "open -a 'Google Chrome.app'"),
                         (K::K, "open -a 'iTerm.app'"),
                         (K::L, "open -a 'Alfred 4.app'"),
-                        (K::M, "open -a 'Dynalist.app'"),
-                        (K::N, "open -a 'Notion.app'"),
-                        (K::O, "open -a 'Visual Studio Code.app'"),
+                        (K::M, "open -a 'Mail.app'"),
+                        (K::N, "open -a 'Calendar.app'"),
                         (K::P, "open -a '1Password.app'"),
-                        (
-                            K::R,
-                            r#"osascript -e "tell application \"Alfred 4\" to search \"docsrs \"""#,
-                        ),
-                        (K::T, "open -a 'Visual Studio Code.app'"),
+                        (K::T, "open -a 'Microsoft Teams.app'"),
                         (K::U, "open -a 'Microsoft To Do.app'"),
-                        (
-                            K::X,
-                            r#"osascript -e "tell application \"Alfred 4\" to search \"snip codeblocks\"""#,
-                        ),
                         (K::V, "open -a 'DeepL.app'"),
-                        (K::CloseBracket, r#"osascript -e "tell application \"Spotify\" to previous track""#),
-                        (K::NonUsPound, r#"osascript -e "tell application \"Spotify\" to next track""#),
-                        (K::Backslash, r#"osascript -e "tell application \"Spotify\" to next track""#),
+                        (K::Y, "open -a 'Dynalist.app'"),
                         (K::Comma, "open -a 'System Preferences.app'"),
-                        (K::OpenBracket, "open -a 'Mail.app'"),
                     ]
                         .into_iter()
                         .map(|(key_code, shell_command)| ManipulatorInit {
