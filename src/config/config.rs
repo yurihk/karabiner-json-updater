@@ -2306,6 +2306,7 @@ impl Config {
                 Rule {
                     description: "Open apps",
                     manipulators: vec![
+                        (K::G, "open -a 'GIMP-2.10.app'"),
                         (K::I, "open -a 'Visual Studio Code.app'"),
                         (K::J, "open -a 'Google Chrome.app'"),
                         (K::K, "open -a 'iTerm.app'"),
